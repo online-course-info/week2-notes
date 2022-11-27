@@ -33,7 +33,7 @@ _And the optput will be like this:_
 
 ![image](https://user-images.githubusercontent.com/119107805/204103815-8c4a184b-445b-49b2-893a-0aa15f08a2d3.png)
 
-# The SRC Attribute
+# The `SRC` Attribute
 
 >The `<img>` tag is used to embed an image in an HTML page. The `src` attribute specifies the path to the image to be displayed:
 
@@ -69,7 +69,7 @@ Notes: External images might be under copyright. If you do not get permission to
 
 Tip: It is almost always best to use relative URLs. They will not break if you change domain.
 
-# The width and height Attributes
+# The `width` and `height` Attributes
 
 >The `<img>` tag should also contain the `width` and `height` attributes, which specify the width and height of the image (in pixels):
 
@@ -94,7 +94,7 @@ _The output will be like this:_
 
 ![image](https://user-images.githubusercontent.com/119107805/204104162-30e6e246-73fa-44c0-87da-965d60d4002e.png)
 
-# The alt Attribute
+# The `alt` Attribute
 
 >The required `alt` attribute for the `<img>` tag specifies an alternate text for an image, if the image for some reason cannot be displayed. This can be due to a slow connection, or an error in the `src` attribute, or if the user uses a screen reader
 
@@ -119,7 +119,7 @@ _The output will be like this:_
 
 ![image](https://user-images.githubusercontent.com/119107805/204104268-dba52ed4-e007-4c2c-ac51-9dc08da40528.png)
 
-# The style Attribute
+# The `style` Attribute
 
 >The `style` attribute is used to add styles to an element, such as color, font, size, and more
 
@@ -132,3 +132,53 @@ Code example:
 _The output will like this:_
 
 ![image](https://user-images.githubusercontent.com/119107805/204104359-412e2b35-8254-4db5-b0c3-a66bec666df7.png)
+
+# The `lang` HTML
+
+>You should always include the `lang` attribute inside the `<html>` tag, to declare the language of the Web page. This is meant to assist search engines and browsers
+
+This is an example code:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+    <body>
+        /your code 
+    </body>
+</html>
+```
+
+>Country codes can also be added to the language code in the `lang` attribute. So, the first two characters define the language of the HTML page, and the last two characters define the country
+
+This is an example code:
+
+```html
+<!DOCTYPE html>
+<html lang="en-US">
+    <body>
+        //your html code
+    </body>
+</html>
+```
+
+# Chapter Summary
+
+>The `href` attribute of `<a>` **specifies** the URL of the page the link goes to
+    
+>The `src` attribute of `<img>` **specifies the _path_ to the image** to be displayed
+    
+>The `width` and `height` attributes of `<img>` **provide size** information for images
+    
+>The `alt` attribute of `<img>` provides an **alternate** text for an image
+    
+>The `style` attribute **is used to _add styles_** to an element, such as _color_, _font_, _size_, and more
+
+>The `lang` attribute of the `<html>` tag **_declares_ the language of the Web page**
+    
+>The `title` attribute **defines some _extra information_ about an element**
+
+# Your "HomeWork" for next week will be:
+
+>**Problem Set 2**
+
+                                           ***Bye!***
